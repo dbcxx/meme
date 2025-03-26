@@ -10,8 +10,8 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   title: "Always Early",
-  description: "Be earlier than FaZe Banks and the LA Vape Cabal",
-    generator: 'v0.dev'
+  description: "Get in Early to Degen Calls. Beat the Cabals, KOLs and FnFs to their game.",
+    generator: 'Sam.dev'
 }
 
 export default function RootLayout({

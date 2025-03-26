@@ -39,7 +39,7 @@ export default function Home() {
                 href="https://t.me/UseAlwaysEarlyBot"
                 className="flex items-center w-48 bg-[#ff5500] hover:bg-[#ff6600] border-2 border-[#272B33] text-white px-4 py-2 transition-colors"
               >                                
-                <ArrowLeft className="mr-2 h-4 w-4" />
+                {/* <ArrowLeft className="mr-2 h-4 w-4" /> */}
                 ACCESS BOT
               </Link>
               </div>
@@ -50,7 +50,7 @@ export default function Home() {
                 href="#official-links"
                 className="flex items-center w-48 bg-[#FF9500] hover:bg-[#ff5500]/10 border-2 border-[#272B33] text-white px-4 py-2 transition-colors"
               >
-                <ArrowLeft className="mr-2 h-4 w-4" />
+                {/* <ArrowLeft className="mr-2 h-4 w-4" /> */}
                 OFFICIAL LINKS
               </Link>
               </div>
@@ -61,7 +61,7 @@ export default function Home() {
                  onClick={() => setIsModalOpen(true)}
                 className="flex items-center w-48 bg-[#5BD999] hover:bg-[#22c55e]/10 border-2 border-[#272B33] text-white px-4 py-2 transition-colors"
               >
-                <ArrowLeft className="mr-2 h-4 w-4" />
+                {/* <ArrowLeft className="mr-2 h-4 w-4" /> */}
                 WHITEPAPER
               </button>
               </div>
