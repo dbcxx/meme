@@ -29,7 +29,7 @@ export default function Home() {
                   Early
                 </span>
               </h1>
-              <p className="mt-4 text-gray-300 text-lg">Be earlier than FaZe Banks and the LA Vape Cabal</p>
+              <p className="mt-4 text-gray-300 text-lg">Get in Early to Degen Calls. Beat the Cabals, KOLs and FnFs to their game.</p>
             </div>
 
     
