@@ -294,7 +294,7 @@ const features = [
   {
     title: "Degen Gems",
     description:
-      "Beat the insiders at their own game. Get the jump on hype cycles and trending tokens before the cabal floods the chat.",
+      "Unearth hidden memecoin treasures before they moon. We sniff out the wildest low-cap plays so you can ape in early and ride the pump.",
   },
   {
     title: "Frontruns",
@@ -304,7 +304,7 @@ const features = [
   {
     title: "Cabal plays",
     description:
-      "Beat the insiders at their own game. Get the jump on hype cycles and trending tokens before the cabal floods the chat.",
+      "Expose the moves of Cabals like the LA Vape, Grand FnF, Stratton Oakmont, the Te/Charto/sully cabal etc. We decode their signals so you’re in on the action, not left holding bags.",
   },
   {
     title: "Dip Opportunities",
@@ -330,9 +330,9 @@ const comingSoon = [
       "Crank the leverage, chase the pumps. Our AI dishes out precise calls to help you 10x or rug - full send, no regrets.",
   },
   {
-    title: "Whale Alerts",
+    title: "Smart Wallet Alerts",
     description:
-      "Track the big fish moving the market. When wallets start dumping or stacking, you'll know before the minnows get rekt.",
+      "Real-time alerts on sharp wallets - AI tracks their gem, dip, and pump moves so you can follow the smart money and win.",
   },
   {
     title: "Sports Betting Predictions",
