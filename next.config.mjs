@@ -8,10 +8,9 @@ try {
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export', // Generates static files in `out/`
-  // Optional: Use './' for relative paths (helps in some cases)
-  // assetPrefix: process.env.NODE_ENV === 'production' ? '/' : './',
-  // basePath: '/meme', // Match your WAMP folder name
-  // assetPrefix: '/meme/', // Ensures correct asset paths
+  //Optional: Use './' for relative paths (helps in some cases)
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/' : './',
+  
   eslint: {
     ignoreDuringBuilds: true,
   },
