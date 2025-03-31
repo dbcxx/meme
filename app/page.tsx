@@ -1,14 +1,19 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useRef,useEffect } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { ArrowLeft } from "lucide-react"
 import WhitepaperModal from "@/components/whitepaper-modal"
 import FeatureCarousel from "@/components/feature-carousel"
 
+
+
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false)
+  const videoRef = useRef<HTMLVideoElement>(null)
+  const [isMuted, setIsMuted] = useState(true)
+   
 
   return (
     <main className="min-h-screen bg-[#272B33] text-white">
@@ -27,7 +32,7 @@ export default function Home() {
                 <br />
                 <span className="lg:text-9xl text-6xl bg-gradient-to-r from-green-400 via-green-300 to-yellow-300 text-transparent bg-clip-text">
                   Early
-                </span>
+                </span> 
               </h1>
               <p className="mt-4 text-gray-300 text-lg">Get in Early to Degen Calls. Beat the Cabals, KOLs and FnFs to their game.</p>
             </div>
@@ -73,7 +78,36 @@ export default function Home() {
 
           </div>
 
-          <div className="w-full max-w-md h-96 bg-white rounded-lg mt-16 md:mt-0 hidden md:block"></div>
+          <video
+            ref={videoRef}
+            className="h-96 bg-[#1F2229]x rounded-lg mt-16 md:mt-0"
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="auto"
+          >
+          <source src="/early.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+            </video>
+
+
+           {/* Unmute Button (always visible) */}
+           {isMuted && (
+      <button
+        onClick={() => {
+          if (videoRef.current) {
+            videoRef.current.muted = false
+            setIsMuted(false)
+          }
+        }}
+        className="fixed bottom-4 right-4 bg-orange-500 hover:bg-orange-600 px-4 py-2 rounded-md text-white transition-colors"
+      >
+        🔊 Unmute
+      </button>
+           )}
+
+          
         </div>
       </section>
 
